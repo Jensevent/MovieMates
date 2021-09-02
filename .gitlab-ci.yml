@@ -1,0 +1,59 @@
+image: docker:latest
+
+services:
+  - mcr.microsoft.com/dotnet/core/sdk:3.1
+  
+stages:
+  - build
+  - deploy
+
+variables:
+  backendFolder: "MovieMates_Backend"
+  frontendFolder: "moviemates_frontend"
+  unitTestsFolder: "MovieMates_BackendTests"
+  integrationTestsFolder: "MovieMates_Backend_IntegrationTests"
+  projectName: "MovieMates"
+  token: "a67fe2ab71fd80565dc85185dfd7c519972cee8b"
+
+ 
+#Build
+build:
+  before_script:
+    - cd $backendFolder
+    - dotnet restore
+
+  stage: build
+  script:
+    - dotnet build
+
+
+#Deploy Backend
+deploy-backend:
+  stage: deploy
+
+  before_script:
+    - docker login -u jensevent -p Welkom12345 
+
+  script:
+    - docker build -t jensevent/backend:latest -f $backendFolder/Dockerfile .
+    - docker tag jensevent/backend:latest jensevent/backend
+    - docker push jensevent/backend
+
+  after_script:
+    - docker logout
+
+
+#Deploy Frontend
+deploy-frontend:
+  stage: deploy
+
+  before_script:
+    - docker login -u jensevent -p Welkom12345 
+
+  script:
+    - docker build -t jensevent/frontend:latest -f $frontendFolder/Dockerfile .
+    - docker tag jensevent/frontend:latest jensevent/frontend
+    - docker push jensevent/frontend
+
+  after_script:
+    - docker logout

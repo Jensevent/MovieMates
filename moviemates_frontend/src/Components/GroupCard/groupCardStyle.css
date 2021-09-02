@@ -1,0 +1,33 @@
+.MoreInfoButton{
+    position: absolute;
+    display: inline-block;
+    margin:auto;
+    left:10px;
+    bottom:10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    font-size:30px;
+    opacity: 0.84;
+    z-index: 2;
+}
+
+
+.NextButton{
+    position: absolute;
+    display: inline-block;
+    margin:auto;
+    right:10px;
+    bottom:10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    font-size:30px;
+    opacity: 0.84;
+    z-index: 2;
+}
+
+.users{
+    text-decoration: underline;
+    font-size: 18px;
+}
