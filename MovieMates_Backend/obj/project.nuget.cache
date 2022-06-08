@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "65Y8f04elIFPUeQICpGWrThGl+2VD2JGscUtNjFxKJeg5OjcmxG+XnXgNQ5api3fO7XpztqfGq5Rmgkod4iyHg==",
+  "dgSpecHash": "AlfIqsB9mkoaqhULX9VKI0RpOfDS6vIFNvk1Y6YvoeH62WctWB/f1CkkDVu3Iey+mxyAyCYPFB9bvxLNqOjRag==",
   "success": true,
-  "projectFilePath": "D:\\Git\\s3-ips\\MovieMates_Backend\\MovieMates_Backend.csproj",
+  "projectFilePath": "D:\\Git\\MovieMates\\MovieMates_Backend\\MovieMates_Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jhees\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\jhees\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.8\\microsoft.aspnetcore.jsonpatch.3.1.8.nupkg.sha512",
@@ -113,7 +113,11 @@
     "C:\\Users\\jhees\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\jhees\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\jhees\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\jhees\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\jhees\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\jhees\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512",
+    "C:\\Users\\jhees\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\jhees\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\jhees\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
   ],
   "logs": []
 }

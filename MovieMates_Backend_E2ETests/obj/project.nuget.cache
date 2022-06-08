@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HYyAEbfwnLauRyR6cf+oK4W9Fo/DxfMt5gu3zIghTHLo/crwbGKg0PDRUsrSF3GPpa+/dIz2uKRsEtuc8SEZ6w==",
+  "dgSpecHash": "idIcQYVHh9DfMmLf3f+XIhnUW5B8q/36FCnXUojT0Hn5Yws8Ac5tqN8fUSIaAhZc3hHTzWFnfv6JOVNorCT8Tw==",
   "success": true,
-  "projectFilePath": "D:\\Git\\s3-ips\\MovieMates_Backend_E2ETests\\MovieMates_Backend_E2ETests.csproj",
+  "projectFilePath": "D:\\Git\\MovieMates\\MovieMates_Backend_E2ETests\\MovieMates_Backend_E2ETests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jhees\\.nuget\\packages\\bodi\\1.4.1\\bodi.1.4.1.nupkg.sha512",
     "C:\\Users\\jhees\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
@@ -120,7 +120,10 @@
     "C:\\Users\\jhees\\.nuget\\packages\\xunit.extensibility.core\\2.4.0\\xunit.extensibility.core.2.4.0.nupkg.sha512",
     "C:\\Users\\jhees\\.nuget\\packages\\xunit.extensibility.execution\\2.4.0\\xunit.extensibility.execution.2.4.0.nupkg.sha512",
     "C:\\Users\\jhees\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.0\\xunit.runner.visualstudio.2.4.0.nupkg.sha512",
-    "C:\\Users\\jhees\\.nuget\\packages\\xunit.skippablefact\\1.3.12\\xunit.skippablefact.1.3.12.nupkg.sha512"
+    "C:\\Users\\jhees\\.nuget\\packages\\xunit.skippablefact\\1.3.12\\xunit.skippablefact.1.3.12.nupkg.sha512",
+    "C:\\Users\\jhees\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\jhees\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\jhees\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
   ],
   "logs": []
 }

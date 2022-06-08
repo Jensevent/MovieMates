@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\s3-ips\\MovieMates_Backend_IntegrationTests\\MovieMates_Backend_IntegrationTests.csproj": {}
+    "D:\\Git\\MovieMates\\MovieMates_Backend_IntegrationTests\\MovieMates_Backend_IntegrationTests.csproj": {}
   },
   "projects": {
-    "D:\\Git\\s3-ips\\MovieMates_Backend\\MovieMates_Backend.csproj": {
+    "D:\\Git\\MovieMates\\MovieMates_Backend\\MovieMates_Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\s3-ips\\MovieMates_Backend\\MovieMates_Backend.csproj",
+        "projectUniqueName": "D:\\Git\\MovieMates\\MovieMates_Backend\\MovieMates_Backend.csproj",
         "projectName": "MovieMates_Backend",
-        "projectPath": "D:\\Git\\s3-ips\\MovieMates_Backend\\MovieMates_Backend.csproj",
+        "projectPath": "D:\\Git\\MovieMates\\MovieMates_Backend\\MovieMates_Backend.csproj",
         "packagesPath": "C:\\Users\\jhees\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\s3-ips\\MovieMates_Backend\\obj\\",
+        "outputPath": "D:\\Git\\MovieMates\\MovieMates_Backend\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\jhees\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,6 +63,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.23, 3.1.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -75,25 +89,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Git\\s3-ips\\MovieMates_Backend_IntegrationTests\\MovieMates_Backend_IntegrationTests.csproj": {
+    "D:\\Git\\MovieMates\\MovieMates_Backend_IntegrationTests\\MovieMates_Backend_IntegrationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\s3-ips\\MovieMates_Backend_IntegrationTests\\MovieMates_Backend_IntegrationTests.csproj",
+        "projectUniqueName": "D:\\Git\\MovieMates\\MovieMates_Backend_IntegrationTests\\MovieMates_Backend_IntegrationTests.csproj",
         "projectName": "MovieMates_Backend_IntegrationTests",
-        "projectPath": "D:\\Git\\s3-ips\\MovieMates_Backend_IntegrationTests\\MovieMates_Backend_IntegrationTests.csproj",
+        "projectPath": "D:\\Git\\MovieMates\\MovieMates_Backend_IntegrationTests\\MovieMates_Backend_IntegrationTests.csproj",
         "packagesPath": "C:\\Users\\jhees\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\s3-ips\\MovieMates_Backend_IntegrationTests\\obj\\",
+        "outputPath": "D:\\Git\\MovieMates\\MovieMates_Backend_IntegrationTests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\jhees\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -107,8 +117,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Git\\s3-ips\\MovieMates_Backend\\MovieMates_Backend.csproj": {
-                "projectPath": "D:\\Git\\s3-ips\\MovieMates_Backend\\MovieMates_Backend.csproj"
+              "D:\\Git\\MovieMates\\MovieMates_Backend\\MovieMates_Backend.csproj": {
+                "projectPath": "D:\\Git\\MovieMates\\MovieMates_Backend\\MovieMates_Backend.csproj"
               }
             }
           }
@@ -162,6 +172,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.23, 3.1.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -170,7 +198,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
